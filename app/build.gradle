@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "tv.videoup.www.android_sdk_feed_demo"
+        applicationId "com.videoup.testsdk"
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 1
@@ -26,8 +26,23 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    /**
+     * 引入feed-sdk库 （必选）
+     */
+    implementation 'com.videoup:feed-sdk:2.1.1'
+
+    /**
+     * 如果使用feed-sdk的图形加载库需要依赖feed-load库（可选,需要和feed-sdk版本一致）
+     */
+    implementation 'com.videoup:feed-load:2.1.1'
+
+
+
+    implementation 'com.github.bumptech.glide:glide:4.1.1'
 }
