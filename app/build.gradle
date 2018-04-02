@@ -35,12 +35,12 @@ dependencies {
     /**
      * 引入feed-sdk库 （必选）
      */
-    implementation 'com.videoup:feed-sdk:2.1.3'
+    implementation 'com.videoup:feed-sdk:2.1.4'
 
     /**
      * 如果使用feed-sdk的图形加载库需要依赖feed-load库（可选,需要和feed-sdk版本一致）
      */
-    implementation 'com.videoup:feed-load:2.1.3'
+    implementation 'com.videoup:feed-load:2.1.4'
 
 
 
