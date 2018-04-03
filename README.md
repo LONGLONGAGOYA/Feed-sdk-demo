@@ -3,7 +3,7 @@
 最新稳定版本：
 
 
-* 2.1.4  最新稳定优化版本
+* 2.1.5  最新稳定优化版本
 
 * 最新信息请参考： https://github.com/LONGLONGAGOYA/Feed-sdk-demo
 
@@ -77,6 +77,16 @@ feed-sdk依赖了如下第三方库：
     implementation 'com.google.android.gms:play-services-ads:11.8.0'
 
 ```
+
+* 权限添加：需要为sdk添加如下权限
+        
+        ```
+                    
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>    
+        
+        ```
 若您的App也依赖了这些第三方库，请确保您依赖的第三方库的版本与我们sdk依赖的第三方库版本兼容。
 
 ### 2. 初始化
