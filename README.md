@@ -3,7 +3,7 @@
 最新稳定版本：
 
 
-* 2.1.5  最新稳定优化版本
+* 2.1.9  最新稳定优化版本
 
 * 最新信息请参考： https://github.com/LONGLONGAGOYA/Feed-sdk-demo
 
